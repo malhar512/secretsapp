@@ -1,0 +1,26 @@
+
+body {
+  background-color: #f7fbe1;
+}
+.heading{
+  font-family:  "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: 125px;
+}
+.subtext{
+  font-family: "Snell Roundhand",cursive;
+}
+.secret-list{
+  font-family: "Comic Sans MS", cursive;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #e8e4e1;
+  background-color: #00263b;
+}
