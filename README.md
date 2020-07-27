@@ -16,7 +16,7 @@ Various Frameworks used in this project :
     
    In this project, the main aim is to authenticate user with Google account or Facebook account, which is mainly done with passport.js which is npm package. Once a user registers to our website his Google Id/Facebook Id is received and saved in our MongoDB database and hence Users' data is safely saved in our database. After registering user can later login through registered account. Now since information is secured user can share secrets anonymously and safely.
         Styling of website is mainly done using HTML, CSS, Bootstrap and Javascript, While Back End is runs on Nodejs, ExpressJs and Mongoose (Library for MongoDB) running on AWS.
-    The Authentication is done using passport-google-OAuth20 strategy for Google and passport-facebook for Facebook in Passportjs
+    The Authentication is done using passport-google-OAuth20 strategy for Google and passport-facebook strategy for Facebook in Passportjs package.
 
 If you want to run this project on your System, here are steps to do so:
   1. Clone this app and download the source code.
@@ -26,4 +26,7 @@ If you want to run this project on your System, here are steps to do so:
   5. Connect application to MongoDB either locally or on MongoDB Atlas to save information on database.
   6. Use `node app.js` in command prompt to run code on localhost:3000
   
+
+
+
 _Check out Images Folder to see UI design of different pages_
